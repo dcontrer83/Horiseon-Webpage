@@ -5,18 +5,18 @@
     margin: 0;
 }
 
-/* body section background softer white */
+/* body section specific background color */
 body {
     background-color: #d9dcd6;
 }
 
-/*  ancher elements are white and do not have underline */
+/*  anchor elements are specific text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*  header has padding, font family, background color blueish, text white */
+/*  header has specific padding, font family, background color, and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,7 +56,6 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-
 }
 
 /*  main contents (search engine optimization, online reputation management, and social media marketing) have specific width, inline-block, and margin */
