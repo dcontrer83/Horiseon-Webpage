@@ -6,8 +6,8 @@
   
 <h2>Screenshots<h2>
 
-<img href="./screenshots/Screenshot_1" alt="screenshot top">
-<img href="./screenshots/Screenshot_2" alt="screenshot middle">
-<img href="./screenshots/Screenshot_3" alt="screenshot bottom">
+<img src="./screenshots/Screenshot_1.jpeg" alt="screenshot top">
+<img src="./screenshots/Screenshot_2.jpeg" alt="screenshot middle">
+<img src="./screenshots/Screenshot_3.jpeg" alt="screenshot bottom">
 
   
