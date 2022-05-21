@@ -1,42 +1,47 @@
-/* universal selector for boxes size, padding, and margin */
+/* universal selector for box size, padding, and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* body section specific background color */
+/* body element specific background color */
 body {
     background-color: #d9dcd6;
 }
 
-/*  anchor elements are specific text color */
+/* anchor elements have specific text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*  header has specific padding, font family, background color, and text color */
-.header {
+/* paragraph elements have specific font size */
+p {
+    font-size: 16px;
+}
+
+/* header has specific padding, font family, background color, and text color */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/*  Horiseon is inline-block and different font size */
-.header h1 {
+/* Horiseon (in header) has specific display (inline-block) and font size */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*  seo from Horiseon has a different color */
-.header h1 .seo {
+/* seo from Horiseon (in header) specific text color (overwrites header text color)*/
+header h1 .seo {
     color: #d9dcd6;
 }
 
-/*  header navigation section element has specific padding, margin, float, font family, and font size */
-.header nav {
+/* header navigation elements has specific padding, margin, float, font family, and font size */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -44,35 +49,37 @@ a {
     font-size: 20px;
 }
 
-/*  header anchor elements have specific list style type (none), display, and margin */
-.header a {
+/* header anchor elements have specific list style type (none), display (inline-block), and margin */
+header a {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-/*  figure image (main big pic on website) has specific height, width, and margin */
-.figure img {
+/* figure image (main big pic on website) has specific height, width, margin, fit (cover), and position (center) */
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    object-fit: cover;
+    object-position: center;
 }
 
-/*  main contents (search engine optimization, online reputation management, and social media marketing) have specific width, inline-block, and margin */
-.contents {
+/* main elements (search engine optimization, online reputation management, and social media marketing) have specific width, display (inline-block), and margin */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*  headers (Search Engine Optimization, Online Reputation Management, and Social Media Marketing) have specific margin and font size */
-.contents h2 {
+/* headers in main (Search Engine Optimization, Online Reputation Management, and Social Media Marketing) have specific margin and font size */
+main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*  content segments have specific margin, padding, height, font family, background color, and text color */
-.content-segment {
+/* main section have specific margin, padding, height, font family, background color, and text color */
+.main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,22 +88,22 @@ a {
     color: #ffffff;
 }
 
-/* Image is put on the left side of its section */
+/* image is put on the left side of its section */
 .img-left {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-/* Image is put on the right side of its section */
+/* image is put on the right side of its section */
 #img-right {
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
 
-/*  aside benefits have specific margin, padding, clear, float, width, height, font family, and background color  */
-.benefits {
+/* aside elements have specific margin, padding, clear, float, width, height, font family, and background color  */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -107,34 +114,34 @@ a {
     background-color: #2589bd;
 }
 
-/*  benefit segments have specific margin and text color */
-.benefit-segment {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*  headers (Lead Generation, Brand Awareness, and Cost Management) have specific margin and text alignment */
-.benefit-segment h3 {
+/* hearder in aside (Lead Generation, Brand Awareness, and Cost Management) have specific margin and text alignment */
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* benfits images have specific display, margin, and max width */
-.benefit-segment img {
+/* aside images have specific display, margin, and max width */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* aside section have specific margin and text color */
+.aside-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 /* footer has specific padding, clear, font family, and text alignment */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/*  footer header has specific font size */
-.footer h4 {
+/* header in footer has specific font size */
+footer h4 {
     font-size: 20px;
 }
