@@ -1,4 +1,4 @@
-# Module-1-Challenge-Horiseon-Webpage
+# Horiseon-Webpage
 
 <h2>Description</h2>
   
