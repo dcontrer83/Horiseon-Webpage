@@ -10,6 +10,6 @@
 <img src="./screenshots/Screenshot_2.jpeg" alt="screenshot middle">
 <img src="./screenshots/Screenshot_3.jpeg" alt="screenshot bottom">
 
-  <h2>Link</h2>
+<h2>Link</h2>
 
-  <a href="https://dcontrer83.github.io/Horiseon-Webpage/" target="_blank" rel= "nopener noreferrer">Horiseon Webpage</a>
+<a href="https://dcontrer83.github.io/Horiseon-Webpage/">Horiseon Webpage</a>
