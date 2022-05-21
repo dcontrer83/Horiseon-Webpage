@@ -12,4 +12,4 @@
 
   <h2>Link</h2>
 
-  <a href="https://dcontrer83.github.io/Module-1-Challenge-Horiseon-Webpage">Module 1 Challenge Horiseon Webpage</a>
+  <a href="https://dcontrer83.github.io/Horiseon-Webpage/" target="_blank" rel= "nopener noreferrer">Horiseon Webpage</a>
